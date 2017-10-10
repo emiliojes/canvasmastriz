@@ -19,9 +19,9 @@ for(l = 0; l < lineas; l++)
 }
 dibujarLinea(colorcito, 1, 1, 1, 300);
 dibujarLinea(colorcito, 1, 299, 299, 299);
-//dibujarLinea(colorcito, 0, 0, 300, 10);
-//dibujarLinea(colorcito, 10, 0, 300, 20);
-//dibujarLinea(colorcito, 20, 0, 300, 30);
+dibujarLinea(colorcito, 0, 0, 300, 0);
+dibujarLinea(colorcito, 0, 0, 300, 0);
+dibujarLinea(colorcito, 300, 0, 300, 300);
 
 
 function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal)
